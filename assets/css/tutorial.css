@@ -1,0 +1,23 @@
+body {
+
+    background-image: url(../../media/images/sky-5073420_960_720.webp);
+}
+
+div {
+    width: 70%;
+    height: 450px;
+    background-color: white;
+    margin: 100px auto;
+    color: black;
+    font-size: 25px;
+}
+
+h4 {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    margin: 15px;
+}

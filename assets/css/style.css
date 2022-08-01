@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(72, 88, 88);
+    background-image: url(../../media/images/sky-5073420_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+}
+
+.buttonAll {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+.start {
+    background-color: rgb(118, 200, 118);
+    color: white;
+}
+
+.tutorial {
+    background-color: rgb(113, 113, 225);
+    color: white;
+}
+
+a button:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
